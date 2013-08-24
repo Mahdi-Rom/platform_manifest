@@ -180,6 +180,7 @@
   <project path="external/openssh" name="platform/external/openssh" />
   <project path="external/openssl" name="platform/external/openssl" groups="pdk" />
   <project path="external/oprofile" name="platform/external/oprofile" />
+  <project path="external/pigz" name="Mahdi-Rom/android_external_pigz" remote="Mahdi-Rom" revision="jb-4.3" />
   <project path="external/ping" name="platform/external/ping" />
   <project path="external/ping6" name="platform/external/ping6" />
   <project path="external/ppp" name="platform/external/ppp" />
