@@ -42,6 +42,7 @@
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
+  <project path="device/asus/flo" name="Mahdi-Rom/android_device_asus_flo" remote="Mahdi-Rom" revision="jb-4.3" />
   <project path="device/asus/grouper" name="Mahdi-Rom/android_device_asus_grouper" remote="Mahdi-Rom" revision="jb-4.3" />
   <project path="device/lge/mako" name="Mahdi-Rom/android_device_lge_mako" remote="Mahdi-Rom" revision="jb-4.3" />
   <project path="device/samsung/jf-common" name="Mahdi-Rom/android_device_samsung_jf-common" remote="Mahdi-Rom" revision="jb-4.3" />
