@@ -281,6 +281,7 @@
   <project path="hardware/ti/omap4xxx" name="Mahdi-Rom/android_hardware_ti_omap4xxx" groups="omap4" remote="Mahdi-Rom" revision="jb-4.3" />
   <project path="hardware/ti/wlan" name="Mahdi-Rom/android_hardware_ti_wlan" remote="Mahdi-Rom" revision="jb-4.3" />
   <project path="hardware/ti/wpan" name="Mahdi-Rom/android_hardware_ti_wpan" remote="Mahdi-Rom" revision="jb-4.3" />
+  <project path="kernel/asus/flo" name="Mahdi-Rom/android_kernel_asus_flo" remote="Mahdi-Rom" revision="jb-4.3" />
   <project path="kernel/asus/grouper" name="Mahdi-Rom/android_kernel_asus_grouper" remote="Mahdi-Rom" revision="jb-4.3" />
   <project path="kernel/lge/mako" name="Mahdi-Rom/android_kernel_lge_mako" remote="Mahdi-Rom" revision="jb-4.3" />
   <project path="kernel/samsung/jf" name="Mahdi-Rom/android_kernel_samsung_jf" remote="Mahdi-Rom" revision="jb-4.3" />
