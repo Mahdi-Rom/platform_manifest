@@ -298,6 +298,7 @@
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
+  <project path="packages/apps/CMFileManager" name="Mahdi-Rom/android_packages_apps_CMFileManager" remote="Mahdi-Rom" revision="jb-4.3" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
   <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
@@ -309,6 +310,7 @@
   <project path="packages/apps/Gallery2" name="Mahdi-Rom/android_packages_apps_Gallery2" remote="Mahdi-Rom" revision="jb-4.3" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
+  <project path="packages/apps/LockClock" name="Mahdi-Rom/android_packages_apps_LockClock" remote="Mahdi-Rom" revision="jb-4.3" />
   <project path="packages/apps/Launcher2" name="Mahdi-Rom/android_packages_apps_Launcher2" remote="Mahdi-Rom" revision="jb-4.3" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/Mms" name="Mahdi-Rom/android_packages_apps_Mms" remote="Mahdi-Rom" revision="jb-4.3" />
