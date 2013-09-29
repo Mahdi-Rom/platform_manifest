@@ -262,14 +262,17 @@
   <project path="hardware/libhardware_legacy" name="Mahdi-Rom/android_hardware_libhardware_legacy" groups="pdk" remote="Mahdi-Rom" revision="jb-4.3" />
   <project path="hardware/msm7k" name="Mahdi-Rom/android_hardware_msm7k" remote="Mahdi-Rom" revision="jb-4.3" />
   <project path="hardware/qcom/audio" name="Mahdi-Rom/android_hardware_qcom_audio" groups="qcom" remote="Mahdi-Rom" revision="jb-4.3" />
+  <project path="hardware/qcom/audio-bfam" name="Mahdi-Rom/android_hardware_qcom_audio-bfam" groups="qcom" remote="Mahdi-Rom" revision="jb-4.3" />
   <project path="hardware/qcom/audio-caf" name="Mahdi-Rom/android_hardware_qcom_audio-caf" groups="qcom" remote="Mahdi-Rom" revision="jb-4.3" />
   <project path="hardware/qcom/bt" name="Mahdi-Rom/android_hardware_qcom_bt" groups="qcom" remote="Mahdi-Rom" revision="jb-4.3" />
   <project path="hardware/qcom/display" name="Mahdi-Rom/android_hardware_qcom_display" groups="qcom" remote="Mahdi-Rom" revision="jb-4.3" />
   <project path="hardware/qcom/display-caf" name="Mahdi-Rom/android_hardware_qcom_display-caf" groups="qcom" remote="Mahdi-Rom" revision="jb-4.3" />
+  <project path="hardware/qcom/display-mdss" name="Mahdi-Rom/android_hardware_qcom_display-mdss" groups="qcom" remote="Mahdi-Rom" revision="jb-4.3" />
   <project path="hardware/qcom/gps" name="Mahdi-Rom/android_hardware_qcom_gps" groups="qcom" remote="Mahdi-Rom" revision="jb-4.3" />
   <project path="hardware/qcom/keymaster" name="Mahdi-Rom/android_hardware_qcom_keymaster" groups="qcom" remote="Mahdi-Rom" revision="jb-4.3" />
   <project path="hardware/qcom/media" name="Mahdi-Rom/android_hardware_qcom_media" groups="qcom" remote="Mahdi-Rom" revision="jb-4.3" />
   <project path="hardware/qcom/media-caf" name="Mahdi-Rom/android_hardware_qcom_media-caf" groups="qcom" remote="Mahdi-Rom" revision="jb-4.3" />
+  <project path="hardware/qcom/media-v4l2" name="Mahdi-Rom/android_hardware_qcom_media-v4l2" groups="qcom" remote="Mahdi-Rom" revision="jb-4.3" />
   <project path="hardware/qcom/msm8960" name="Mahdi-Rom/android_hardware_qcom_msm8960" groups="qcom_msm8960" remote="Mahdi-Rom" revision="jb-4.3" />
   <project path="hardware/qcom/power" name="Mahdi-Rom/android_hardware_qcom_power" groups="qcom" remote="Mahdi-Rom" revision="jb-4.3" />
   <project path="hardware/qcom/sensors" name="Mahdi-Rom/android_hardware_qcom_sensors" groups="qcom" remote="Mahdi-Rom" revision="jb-4.3" />
