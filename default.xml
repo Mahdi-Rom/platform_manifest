@@ -77,6 +77,7 @@
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
   <project path="external/clang" name="Mahdi-Rom/android_external_clang" groups="pdk" remote="Mahdi-Rom" revision="jb-4.3" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
+  <project path="external/crda" name="Mahdi-Rom/android_external_crda" groups="pdk" remote="Mahdi-Rom" revision="jb-4.3" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" />
