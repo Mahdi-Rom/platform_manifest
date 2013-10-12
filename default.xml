@@ -51,6 +51,8 @@
   <project path="device/samsung/qcom-common" name="Mahdi-Rom/android_device_samsung_qcom-common" remote="Mahdi-Rom" revision="jb-4.3" />
   <project path="device/samsung/galaxysmtd" name="Mahdi-Rom/android_device_samsung_galaxysmtd" remote="Mahdi-Rom" revision="jb-4.3" />
   <project path="device/samsung/aries-common" name="Mahdi-Rom/android_device_samsung_aries-common" remote="Mahdi-Rom" revision="jb-4.3" />
+  <project path="device/samsung/i9100" name="Mahdi-Rom/android_device_samsung_i9100" remote="Mahdi-Rom" revision="jb-4.3" />
+  <project path="device/samsung/galaxys2-common" name="Mahdi-Rom/android_device_samsung_galaxys2-common" remote="Mahdi-Rom" revision="jb-4.3" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
@@ -291,6 +293,7 @@
   <project path="kernel/lge/mako" name="Mahdi-Rom/android_kernel_lge_mako" remote="Mahdi-Rom" revision="jb-4.3" />
   <project path="kernel/samsung/jf" name="Mahdi-Rom/android_kernel_samsung_jf" remote="Mahdi-Rom" revision="jb-4.3" />
   <project path="kernel/samsung/aries" name="Mahdi-Rom/android_kernel_samsung_aries" remote="Mahdi-Rom" revision="jb-4.3" />
+  <project path="kernel/samsung/smdk4412" name="Mahdi-Rom/android_kernel_samsung_smdk4412" remote="Mahdi-Rom" revision="jb-4.3" />
   <project path="libcore" name="Mahdi-Rom/android_libcore" remote="Mahdi-Rom" revision="jb-4.3" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
