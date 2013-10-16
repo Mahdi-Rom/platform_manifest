@@ -149,6 +149,7 @@
   <project path="external/libppp" name="platform/external/libppp" />
   <project path="external/libselinux" name="Mahdi-Rom/android_external_libselinux" groups="pdk" remote="Mahdi-Rom" revision="jb-4.3" />
   <project path="external/libsepol" name="Mahdi-Rom/android_external_libsepol" groups="pdk" remote="Mahdi-Rom" revision="jb-4.3" />
+  <project path="external/libtar" name="Mahdi-Rom/android_external_libtar" remote="Mahdi-Rom" revision="jb-4.3" />
   <project path="external/libusb" name="platform/external/libusb" />
   <project path="external/libusb_aah" name="platform/external/libusb_aah" groups="libusb_aah" />
   <project path="external/libusb-compat" name="platform/external/libusb-compat" />
