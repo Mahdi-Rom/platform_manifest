@@ -187,6 +187,7 @@
   <project path="external/openssh" name="platform/external/openssh" />
   <project path="external/openssl" name="platform/external/openssl" groups="pdk" />
   <project path="external/oprofile" name="platform/external/oprofile" />
+  <project path="external/pciutils" name="Mahdi-Rom/android_external_pciutils" remote="Mahdi-Rom" revision="jb-4.3" />
   <project path="external/pigz" name="Mahdi-Rom/android_external_pigz" remote="Mahdi-Rom" revision="jb-4.3" />
   <project path="external/ping" name="platform/external/ping" />
   <project path="external/ping6" name="platform/external/ping6" />
