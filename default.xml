@@ -255,7 +255,7 @@
   <project path="frameworks/opt/telephony" name="Mahdi-Rom/android_frameworks_opt_telephony" groups="pdk" remote="Mahdi-Rom" revision="jb-4.3" />
   <project path="frameworks/opt/vcard" name="Mahdi-Rom/android_frameworks_opt_vcard" remote="Mahdi-Rom" revision="jb-4.3" />
   <project path="frameworks/rs" name="Mahdi-Rom/android_frameworks_rs" groups="pdk" remote="Mahdi-Rom" revision="jb-4.3" />
-  <project path="frameworks/support" name="platform/frameworks/support" />
+  <project path="frameworks/support" name="Mahdi-Rom/android_frameworks_support" remote="Mahdi-Rom" revision="jb-4.3" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/volley" name="platform/frameworks/volley" />
   <project path="frameworks/webview" name="platform/frameworks/webview" />
