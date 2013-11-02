@@ -39,6 +39,18 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/sample" name="device/sample" groups="pdk" />
+  <project path="device/asus/flo" name="Mahdi-Rom/android_device_asus_flo" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="device/asus/grouper" name="Mahdi-Rom/android_device_asus_grouper" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="device/lge/mako" name="Mahdi-Rom/android_device_lge_mako" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="device/lge/mako-kernel" name="Mahdi-Rom/android_device_lge_mako-kernel" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="device/samsung/jf-common" name="Mahdi-Rom/android_device_samsung_jf-common" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="device/samsung/jfltexx" name="Mahdi-Rom/android_device_samsung_jfltexx" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="device/samsung/msm8960-common" name="Mahdi-Rom/android_device_samsung_msm8960-common" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="device/samsung/qcom-common" name="Mahdi-Rom/android_device_samsung_qcom-common" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="device/samsung/galaxysmtd" name="Mahdi-Rom/android_device_samsung_galaxysmtd" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="device/samsung/aries-common" name="Mahdi-Rom/android_device_samsung_aries-common" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="device/samsung/i9100" name="Mahdi-Rom/android_device_samsung_i9100" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="device/samsung/galaxys2-common" name="Mahdi-Rom/android_device_samsung_galaxys2-common" remote="Mahdi-Rom" revision="kk-4.4" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" />
