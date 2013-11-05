@@ -446,6 +446,9 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
+  <!--CyanogenMod Power Hal -->
+  <project path="hardware/cm" name="Mahdi-Rom/android_hardware_cm" remote="github" revision="kk-4.4" />
+
   <project path="vendor/mahdi" name="Mahdi-Rom/android_vendor_mahdi" remote="Mahdi-Rom" revision="kk-4.4" />
 
 </manifest>
