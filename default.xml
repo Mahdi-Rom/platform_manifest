@@ -289,6 +289,7 @@
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
   <project path="hardware/qcom/display" name="Mahdi-Rom/android_hardware_qcom_display" groups="qcom" remote="Mahdi-Rom" revision="kk-4.4" />
   <project path="hardware/qcom/display-caf" name="Mahdi-Rom/android_hardware_qcom_display-caf" groups="qcom" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="hardware/qcom/gps" name="Mahdi-Rom/android_hardware_qcom_gps" groups="qcom" remote="Mahdi-Rom" revision="kk-4.4" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" />
   <project path="hardware/qcom/media" name="Mahdi-Rom/android_hardware_qcom_media" groups="qcom" remote="Mahdi-Rom" revision="kk-4.4" />
   <project path="hardware/qcom/media-caf" name="Mahdi-Rom/android_hardware_qcom_media-caf" groups="qcom" remote="Mahdi-Rom" revision="kk-4.4" />
