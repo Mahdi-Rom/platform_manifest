@@ -338,7 +338,7 @@
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery2" name="Mahdi-Rom/android_packages_apps_Gallery2" remote="Mahdi-Rom" revision="kk-4.4" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
-  <project path="packages/apps/InCallUI" name="platform/packages/apps/InCallUI" />
+  <project path="packages/apps/InCallUI" name="Mahdi-Rom/android_packages_apps_InCallUI" remote="Mahdi-Rom" revision="kk-4.4" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/LockClock" name="Mahdi-Rom/android_packages_apps_LockClock" remote="Mahdi-Rom" revision="kk-4.4" />
   <project path="packages/apps/Launcher2" name="Mahdi-Rom/android_packages_apps_Launcher2" remote="Mahdi-Rom" revision="kk-4.4" />
