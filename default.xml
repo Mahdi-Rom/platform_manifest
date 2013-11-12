@@ -295,13 +295,13 @@
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/libbt" name="Mahdi-Rom/android_hardware_broadcom_libbt" groups="pdk" remote="Mahdi-Rom" revision="kk-4.4" />
   <project path="hardware/broadcom/wlan" name="Mahdi-Rom/android_hardware_broadcom_wlan" groups="pdk" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="hardware/invensense" name="Mahdi-Rom/android_hardware/invensense" groups="invensense" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="hardware/invensense" name="Mahdi-Rom/android_hardware_invensense" groups="invensense" remote="Mahdi-Rom" revision="kk-4.4" />
   <project path="hardware/libhardware" name="Mahdi-Rom/android_hardware_libhardware" groups="pdk" remote="Mahdi-Rom" revision="kk-4.4" />
   <project path="hardware/libhardware_legacy" name="Mahdi-Rom/android_hardware_libhardware_legacy" groups="pdk" remote="Mahdi-Rom" revision="kk-4.4" />
   <project path="hardware/qcom/audio" name="Mahdi-Rom/android_hardware_qcom_audio" groups="qcom" remote="Mahdi-Rom" revision="kk-4.4" />
   <project path="hardware/qcom/audio-caf" name="Mahdi-Rom/android_hardware_qcom_audio-caf" groups="qcom" remote="Mahdi-Rom" revision="kk-4.4" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
-  <project path="hardware/qcom/camera" name="Mahdi-Rom/android_hardware/qcom/camera" groups="qcom" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="hardware/qcom/camera" name="Mahdi-Rom/android_hardware_qcom_camera" groups="qcom" remote="Mahdi-Rom" revision="kk-4.4" />
   <project path="hardware/qcom/display" name="Mahdi-Rom/android_hardware_qcom_display" groups="qcom" remote="Mahdi-Rom" revision="kk-4.4" />
   <project path="hardware/qcom/display-caf" name="Mahdi-Rom/android_hardware_qcom_display-caf" groups="qcom" remote="Mahdi-Rom" revision="kk-4.4" />
   <project path="hardware/qcom/gps" name="Mahdi-Rom/android_hardware_qcom_gps" groups="qcom" remote="Mahdi-Rom" revision="kk-4.4" />
