@@ -8,10 +8,10 @@
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
 
-  <remote name="Mahdi-Rom"
+  <remote  name="Mahdi-Rom"
            fetch="git://github.com" />
 
-  <default revision="refs/tags/android-4.4_r1"
+  <default revision="refs/tags/android-4.4_r1.1"
            remote="aosp"
            sync-j="4" />
 
@@ -355,7 +355,7 @@
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/PerformanceControl" name="Mahdi-Rom/android_packages_apps_PerformanceControl" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="packages/apps/Phone" name="Mahdi-Rom/android_packages_apps_Phone" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
