@@ -238,7 +238,7 @@
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
   <project path="external/speex" name="platform/external/speex" groups="pdk" />
-  <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" />
+  <project path="external/sqlite" name="Mahdi-Rom/android_external_sqlite" groups="pdk" remote="Mahdi-Rom" revision="kk-4.4" />
   <project path="external/srec" name="Mahdi-Rom/android_external_srec" groups="pdk" remote="Mahdi-Rom" revision="kk-4.4" />
   <project path="external/srtp" name="platform/external/srtp" />
   <project path="external/stlport" name="platform/external/stlport" groups="pdk" />
