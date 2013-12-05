@@ -323,6 +323,7 @@
   <project path="libcore" name="Mahdi-Rom/android_libcore" remote="Mahdi-Rom" revision="kk-4.4" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
+  <project path="packages/apps/Apollo" name="Mahdi-Rom/android_packages_apps_Apollo" remote="Mahdi-Rom" revision="kk-4.4" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="Mahdi-Rom/android_packages_apps_Bluetooth" remote="Mahdi-Rom" revision="kk-4.4" />
   <project path="packages/apps/BluetoothExt" name="Mahdi-Rom/android_packages_apps_BluetoothExt" remote="Mahdi-Rom" revision="kk-4.4" />
@@ -338,6 +339,7 @@
   <project path="packages/apps/ContactsCommon" name="Mahdi-Rom/android_packages_apps_ContactsCommon" remote="Mahdi-Rom" revision="kk-4.4" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
   <project path="packages/apps/Dialer" name="Mahdi-Rom/android_packages_apps_Dialer" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="packages/apps/DSPManager" name="Mahdi-Rom/android_packages_apps_DSPManager" remote="Mahdi-Rom" revision="kk-4.4" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
