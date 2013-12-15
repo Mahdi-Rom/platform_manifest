@@ -46,6 +46,7 @@
   <project path="device/asus/flo" name="Mahdi-Rom/android_device_asus_flo" remote="Mahdi-Rom" revision="kk-4.4" />
   <project path="device/asus/flo-kernel" name="Mahdi-Rom/android_device_asus_flo-kernel" remote="Mahdi-Rom" revision="kk-4.4" />
   <project path="device/asus/grouper" name="Mahdi-Rom/android_device_asus_grouper" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="device/lge/hammerhead" name="Mahdi-Rom/android_device_lge_hammerhead" remote="Mahdi-Rom" revision="kk-4.4" />
   <project path="device/lge/mako" name="Mahdi-Rom/android_device_lge_mako" remote="Mahdi-Rom" revision="kk-4.4" />
   <project path="device/lge/mako-kernel" name="Mahdi-Rom/android_device_lge_mako-kernel" remote="Mahdi-Rom" revision="kk-4.4" />
   <project path="device/samsung/jf-common" name="Mahdi-Rom/android_device_samsung_jf-common" remote="Mahdi-Rom" revision="kk-4.4" />
