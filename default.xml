@@ -473,4 +473,9 @@
 
   <project path="vendor/mahdi" name="Mahdi-Rom/android_vendor_mahdi" remote="Mahdi-Rom" revision="kk-4.4" />
 
+  <project path="vendor/tmobile/apps/ThemeChooser" name="Mahdi-Rom/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="Mahdi-Rom/android_vendor_tmobile_libs_com.tmobile.themes" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="Mahdi-Rom/android_vendor_tmobile_providers_ThemeManager" remote="Mahdi-Rom" revision="kk-4.4" />
+  
+
 </manifest>
