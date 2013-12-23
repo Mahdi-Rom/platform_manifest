@@ -352,6 +352,7 @@
   <project path="packages/apps/Launcher2" name="Mahdi-Rom/android_packages_apps_Launcher2" remote="Mahdi-Rom" revision="kk-4.4" />
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
+  <project path="packages/apps/MahdiCenter" name="Mahdi-Rom/android_packages_apps_MahdiCenter" remote="Mahdi-Rom" revision="kk-4.4" />
   <project path="packages/apps/Mms" name="Mahdi-Rom/android_packages_apps_Mms" remote="Mahdi-Rom" revision="kk-4.4" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
