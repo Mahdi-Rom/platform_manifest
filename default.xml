@@ -1,36 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="github"
-           fetch="https://github.com/" />
-
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
-
-  <remote  name="Mahdi-Rom"
-           fetch="git://github.com" />
-
   <default revision="refs/tags/android-4.4.2_r1"
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="Mahdi-Rom/android_build" groups="pdk" remote="Mahdi-Rom" revision="kk-4.4" >
+  <remote  name="github"
+           fetch="https://github.com" />
+
+  <project path="build" name="Mahdi-Rom/android_build" groups="pdk" remote="github" revision="kk-4.4" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="art" name="Mahdi-Rom/android_art" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="bionic" name="Mahdi-Rom/android_bionic" groups="pdk" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="art" name="Mahdi-Rom/android_art" remote="github" revision="kk-4.4" />
+  <project path="bionic" name="Mahdi-Rom/android_bionic" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="Mahdi-Rom/android_bootable_recovery" groups="pdk" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="bootable/recovery" name="Mahdi-Rom/android_bootable_recovery" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="cts" name="platform/cts" groups="cts" />
-  <project path="dalvik" name="Mahdi-Rom/android_dalvik" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="dalvik" name="Mahdi-Rom/android_dalvik" remote="github" revision="kk-4.4" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
-  <project path="development" name="Mahdi-Rom/android_development" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="development" name="Mahdi-Rom/android_development" remote="github" revision="kk-4.4" />
+  <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" />
+  <project path="device/asus/flo" name="Mahdi-Rom/android_device_asus_flo" groups="device,flo" remote="github" revision="kk-4.4" />
+  <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" />
+  <project path="device/asus/grouper" name="Mahdi-Rom/android_device_asus_grouper" groups="device,grouper" remote="github" revision="kk-4.4" />
+  <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device,grouper" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
@@ -42,22 +43,12 @@
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
+  <project path="device/lge/hammerhead" name="Mahdi-Rom/android_device_lge_hammerhead" groups="device,hammerhead" remote="github" revision="kk-4.4" />
+  <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" />
+  <project path="device/lge/mako" name="Mahdi-Rom/android_device_lge_mako" groups="device,mako" remote="github" revision="kk-4.4" />
+  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
   <project path="device/sample" name="device/sample" groups="pdk" />
-  <project path="device/asus/flo" name="Mahdi-Rom/android_device_asus_flo" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="device/asus/flo-kernel" name="Mahdi-Rom/android_device_asus_flo-kernel" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="device/asus/grouper" name="Mahdi-Rom/android_device_asus_grouper" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="device/lge/hammerhead" name="Mahdi-Rom/android_device_lge_hammerhead" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="device/lge/mako" name="Mahdi-Rom/android_device_lge_mako" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="device/lge/v500" name="Mahdi-Rom/android_device_lge_v500" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="device/lge/mako-kernel" name="Mahdi-Rom/android_device_lge_mako-kernel" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="device/samsung/jf-common" name="Mahdi-Rom/android_device_samsung_jf-common" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="device/samsung/jfltexx" name="Mahdi-Rom/android_device_samsung_jfltexx" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="device/samsung/msm8960-common" name="Mahdi-Rom/android_device_samsung_msm8960-common" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="device/samsung/qcom-common" name="Mahdi-Rom/android_device_samsung_qcom-common" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="device/samsung/galaxysmtd" name="Mahdi-Rom/android_device_samsung_galaxysmtd" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="device/samsung/aries-common" name="Mahdi-Rom/android_device_samsung_aries-common" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="device/samsung/i9100" name="Mahdi-Rom/android_device_samsung_i9100" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="device/samsung/galaxys2-common" name="Mahdi-Rom/android_device_samsung_galaxys2-common" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" />
@@ -69,20 +60,18 @@
   <project path="external/apache-qp" name="platform/external/apache-qp" />
   <project path="external/apache-xml" name="platform/external/apache-xml" />
   <project path="external/arduino" name="platform/external/arduino" />
-  <project path="external/bash" name="Mahdi-Rom/android_external_bash" remote="Mahdi-Rom" revision="kk-4.4" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluedroid" name="Mahdi-Rom/android_external_bluetooth_bluedroid" groups="pdk" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="external/bluetooth/bluedroid" name="Mahdi-Rom/android_external_bluetooth_bluedroid" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
-  <project path="external/busybox" name="Mahdi-Rom/android_external_busybox" remote="Mahdi-Rom" revision="kk-4.4" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" />
   <project path="external/chromium" name="platform/external/chromium" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
-  <project path="external/chromium_org" name="Mahdi-Rom/android_external_chromium_org" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="external/chromium_org" name="Mahdi-Rom/android_external_chromium_org" remote="github" revision="kk-4.4" />
   <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" />
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" />
   <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" />
@@ -106,16 +95,15 @@
   <project path="external/chromium_org/tools/grit" name="platform/external/chromium_org/tools/grit" />
   <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp" />
   <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" />
-  <project path="external/clang" name="Mahdi-Rom/android_external_clang" groups="pdk" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="external/clang" name="Mahdi-Rom/android_external_clang" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
-  <project path="external/crda" name="Mahdi-Rom/android_external_crda" groups="pdk" remote="Mahdi-Rom" revision="kk-4.4" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" />
   <project path="external/doclava" name="platform/external/doclava" />
   <project path="external/dropbear" name="platform/external/dropbear" />
   <project path="external/droiddriver" name="platform/external/droiddriver" />
-  <project path="external/e2fsprogs" name="Mahdi-Rom/android_external_e2fsprogs" groups="pdk" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="external/e2fsprogs" name="Mahdi-Rom/android_external_e2fsprogs" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" />
@@ -124,17 +112,15 @@
   <project path="external/embunit" name="platform/external/embunit" />
   <project path="external/emma" name="platform/external/emma" />
   <project path="external/esd" name="platform/external/esd" />
-  <project path="external/exfat" name="Mahdi-Rom/android_external_exfat" groups="pdk" remote="Mahdi-Rom" revision="kk-4.4" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" />
   <project path="external/eyes-free" name="platform/external/eyes-free" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
-  <project path="external/flac" name="Mahdi-Rom/android_external_flac" groups="pdk" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="external/flac" name="Mahdi-Rom/android_external_flac" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
-  <project path="external/fsck_msdos" name="Mahdi-Rom/android_external_fsck_msdos" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="external/fuse" name="Mahdi-Rom/android_external_fuse" groups="pdk" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="external/fsck_msdos" name="Mahdi-Rom/android_external_fsck_msdos" remote="github" revision="kk-4.4" />
   <project path="external/ganymed-ssh2" name="platform/external/ganymed-ssh2" />
   <project path="external/gcc-demangle" name="platform/external/gcc-demangle" groups="pdk" />
-  <project path="external/genext2fs" name="Mahdi-Rom/android_external_genext2fs" groups="pdk" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="external/genext2fs" name="Mahdi-Rom/android_external_genext2fs" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="external/giflib" name="platform/external/giflib" />
   <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" />
   <project path="external/grub" name="platform/external/grub" />
@@ -144,7 +130,7 @@
   <project path="external/harfbuzz" name="platform/external/harfbuzz" />
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" />
   <project path="external/hyphenation" name="platform/external/hyphenation" />
-  <project path="external/icu4c" name="Mahdi-Rom/android_external_icu4c" groups="pdk" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="external/icu4c" name="Mahdi-Rom/android_external_icu4c" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="external/iproute2" name="platform/external/iproute2" groups="pdk" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" />
   <project path="external/iptables" name="platform/external/iptables" />
@@ -156,31 +142,26 @@
   <project path="external/jhead" name="platform/external/jhead" groups="pdk" />
   <project path="external/jmdns" name="platform/external/jmdns" />
   <project path="external/jmonkeyengine" name="platform/external/jmonkeyengine" />
-  <project path="external/jpeg" name="Mahdi-Rom/android_external_jpeg" groups="pdk" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="external/jpeg" name="Mahdi-Rom/android_external_jpeg" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="external/jsilver" name="platform/external/jsilver" />
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
-  <project path="external/kissfft" name="Mahdi-Rom/android_external_kissfft" groups="pdk" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="external/koush/Superuser" name="Mahdi-Rom/android_external_koush_Superuser" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="external/koush/Widgets" name="Mahdi-Rom/android_external_koush_Widgets" remote="Mahdi-Rom" revision="kk-4.4" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" />
   <project path="external/libffi" name="platform/external/libffi" />
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" />
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
   <project path="external/libmtp" name="platform/external/libmtp" />
-  <project path="external/libncurses" name="Mahdi-Rom/android_external_libncurses" groups="pdk" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="external/libnfc-nci" name="Mahdi-Rom/android_external_libnfc-nci" groups="pdk" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="external/libnfc-nxp" name="Mahdi-Rom/android_external_libnfc-nxp" groups="pdk" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="external/libnfc-nci" name="Mahdi-Rom/android_external_libnfc-nci" groups="pdk" remote="github" revision="kk-4.4" />
+  <project path="external/libnfc-nxp" name="Mahdi-Rom/android_external_libnfc-nxp" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="external/libnl-headers" name="platform/external/libnl-headers" groups="pdk" />
   <project path="external/libogg" name="platform/external/libogg" />
   <project path="external/libpcap" name="platform/external/libpcap" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" />
-  <project path="external/libpng" name="Mahdi-Rom/android_external_libpng" groups="pdk" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="external/libpng" name="Mahdi-Rom/android_external_libpng" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="external/libppp" name="platform/external/libppp" />
-  <project path="external/libselinux" name="Mahdi-Rom/android_external_libselinux" groups="pdk" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="external/libsepol" name="Mahdi-Rom/android_external_libsepol" groups="pdk" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="external/libtar" name="Mahdi-Rom/android_external_libtar" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="external/libselinux" name="Mahdi-Rom/android_external_libselinux" groups="pdk" remote="github" revision="kk-4.4" />
+  <project path="external/libsepol" name="Mahdi-Rom/android_external_libsepol" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="external/libusb" name="platform/external/libusb" />
   <project path="external/libusb-compat" name="platform/external/libusb-compat" />
   <project path="external/libvorbis" name="platform/external/libvorbis" />
@@ -190,7 +171,7 @@
   <project path="external/libyuv" name="platform/external/libyuv" groups="libyuv" />
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" />
   <project path="external/littlemock" name="platform/external/littlemock" />
-  <project path="external/llvm" name="Mahdi-Rom/android_external_llvm" groups="pdk" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="external/llvm" name="Mahdi-Rom/android_external_llvm" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="external/lzma" name="platform/external/lzma" />
   <project path="external/marisa-trie" name="platform/external/marisa-trie" />
   <project path="external/markdown" name="platform/external/markdown" />
@@ -201,7 +182,6 @@
   <project path="external/mockwebserver" name="platform/external/mockwebserver" />
   <project path="external/mp4parser" name="platform/external/mp4parser" />
   <project path="external/mtpd" name="platform/external/mtpd" />
-  <project path="external/nano" name="Mahdi-Rom/android_external_nano" remote="Mahdi-Rom" revision="kk-4.4" />
   <project path="external/naver-fonts" name="platform/external/naver-fonts" />
   <project path="external/netcat" name="platform/external/netcat" />
   <project path="external/netperf" name="platform/external/netperf" />
@@ -209,7 +189,6 @@
   <project path="external/nist-pkits" name="platform/external/nist-pkits" />
   <project path="external/nist-sip" name="platform/external/nist-sip" />
   <project path="external/noto-fonts" name="platform/external/noto-fonts" />
-  <project path="external/ntfs-3g" name="Mahdi-Rom/android_external_ntfs-3g" remote="Mahdi-Rom" revision="kk-4.4" />
   <project path="external/oauth" name="platform/external/oauth" />
   <project path="external/objenesis" name="platform/external/objenesis" />
   <project path="external/okhttp" name="platform/external/okhttp" />
@@ -219,8 +198,6 @@
   <project path="external/openssh" name="platform/external/openssh" />
   <project path="external/openssl" name="platform/external/openssl" groups="pdk" />
   <project path="external/oprofile" name="platform/external/oprofile" />
-  <project path="external/pciutils" name="Mahdi-Rom/android_external_pciutils" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="external/pigz" name="Mahdi-Rom/android_external_pigz" remote="Mahdi-Rom" revision="kk-4.4" />
   <project path="external/pixman" name="platform/external/pixman" />
   <project path="external/ppp" name="platform/external/ppp" />
   <project path="external/proguard" name="platform/external/proguard" groups="pdk-java" />
@@ -232,16 +209,16 @@
   <project path="external/robolectric" name="platform/external/robolectric" />
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
-  <project path="external/sepolicy" name="Mahdi-Rom/android_external_sepolicy" groups="pdk" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="external/sepolicy" name="Mahdi-Rom/android_external_sepolicy" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="external/sfntly" name="platform/external/sfntly" />
   <project path="external/sil-fonts" name="platform/external/sil-fonts" />
-  <project path="external/skia" name="Mahdi-Rom/android_external_skia" groups="pdk" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="external/skia" name="Mahdi-Rom/android_external_skia" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="external/smack" name="platform/external/smack" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
   <project path="external/speex" name="platform/external/speex" groups="pdk" />
-  <project path="external/sqlite" name="Mahdi-Rom/android_external_sqlite" groups="pdk" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="external/srec" name="Mahdi-Rom/android_external_srec" groups="pdk" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="external/sqlite" name="Mahdi-Rom/android_external_sqlite" groups="pdk" remote="github" revision="kk-4.4" />
+  <project path="external/srec" name="Mahdi-Rom/android_external_srec" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="external/srtp" name="platform/external/srtp" />
   <project path="external/stlport" name="platform/external/stlport" groups="pdk" />
   <project path="external/strace" name="platform/external/strace" />
@@ -256,38 +233,38 @@
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" />
   <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" />
   <project path="external/v8" name="platform/external/v8" />
-  <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" />  
+  <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
-  <project path="external/wpa_supplicant_8" name="Mahdi-Rom/android_external_wpa_supplicant_8" groups="pdk" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="external/wpa_supplicant_8" name="Mahdi-Rom/android_external_wpa_supplicant_8" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" />
-  <project path="external/yaffs2" name="Mahdi-Rom/android_external_yaffs2" groups="pdk" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="external/zlib" name="Mahdi-Rom/android_external_zlib" groups="pdk" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="external/yaffs2" name="Mahdi-Rom/android_external_yaffs2" groups="pdk" remote="github" revision="kk-4.4" />
+  <project path="external/zlib" name="Mahdi-Rom/android_external_zlib" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="Mahdi-Rom/android_frameworks_av" groups="pdk" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="frameworks/base" name="Mahdi-Rom/android_frameworks_base" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="frameworks/compile/libbcc" name="Mahdi-Rom/android_frameworks_compile_libbcc" groups="pdk" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="frameworks/compile/mclinker" name="Mahdi-Rom/android_frameworks_compile_mclinker" groups="pdk" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="frameworks/av" name="Mahdi-Rom/android_frameworks_av" groups="pdk" remote="github" revision="kk-4.4" />
+  <project path="frameworks/base" name="Mahdi-Rom/android_frameworks_base" remote="github" revision="kk-4.4" />
+  <project path="frameworks/compile/libbcc" name="Mahdi-Rom/android_frameworks_compile_libbcc" groups="pdk" remote="github" revision="kk-4.4" />
+  <project path="frameworks/compile/mclinker" name="Mahdi-Rom/android_frameworks_compile_mclinker" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="Mahdi-Rom/android_frameworks_native" groups="pdk" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="frameworks/native" name="Mahdi-Rom/android_frameworks_native" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
-  <project path="frameworks/opt/colorpicker" name="Mahdi-Rom/android_frameworks_opt_colorpicker" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="frameworks/opt/colorpicker" name="Mahdi-Rom/android_frameworks_opt_colorpicker" remote="github" revision="kk-4.4" />
   <project path="frameworks/opt/datetimepicker" name="platform/frameworks/opt/datetimepicker" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
-  <project path="frameworks/opt/mms" name="Mahdi-Rom/android_frameworks_opt_mms" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="frameworks/opt/mms" name="Mahdi-Rom/android_frameworks_opt_mms" remote="github" revision="kk-4.4" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
-  <project path="frameworks/opt/telephony" name="Mahdi-Rom/android_frameworks_opt_telephony" groups="pdk" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="frameworks/opt/vcard" name="Mahdi-Rom/android_frameworks_opt_vcard" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="frameworks/rs" name="Mahdi-Rom/android_frameworks_rs" groups="pdk" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="frameworks/opt/telephony" name="Mahdi-Rom/android_frameworks_opt_telephony" groups="pdk" remote="github" revision="kk-4.4" />
+  <project path="frameworks/opt/vcard" name="Mahdi-Rom/android_frameworks_opt_vcard" remote="github" revision="kk-4.4" />
+  <project path="frameworks/rs" name="Mahdi-Rom/android_frameworks_rs" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/uiautomator" name="platform/frameworks/uiautomator" />
@@ -295,104 +272,91 @@
   <project path="frameworks/webview" name="platform/frameworks/webview" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
   <project path="hardware/akm" name="platform/hardware/akm" />
-  <project path="hardware/broadcom/libbt" name="Mahdi-Rom/android_hardware_broadcom_libbt" groups="pdk" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="hardware/broadcom/wlan" name="Mahdi-Rom/android_hardware_broadcom_wlan" groups="pdk" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="hardware/invensense" name="Mahdi-Rom/android_hardware_invensense" groups="invensense" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="hardware/libhardware" name="Mahdi-Rom/android_hardware_libhardware" groups="pdk" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="hardware/libhardware_legacy" name="Mahdi-Rom/android_hardware_libhardware_legacy" groups="pdk" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="hardware/qcom/audio" name="Mahdi-Rom/android_hardware_qcom_audio" groups="qcom" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="hardware/qcom/audio-caf" name="Mahdi-Rom/android_hardware_qcom_audio-caf" groups="qcom" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="hardware/broadcom/libbt" name="Mahdi-Rom/android_hardware_broadcom_libbt" groups="pdk" remote="github" revision="kk-4.4" />
+  <project path="hardware/broadcom/wlan" name="Mahdi-Rom/android_hardware_broadcom_wlan" groups="pdk" remote="github" revision="kk-4.4" />
+  <project path="hardware/invensense" name="Mahdi-Rom/android_hardware_invensense" groups="invensense" remote="github" revision="kk-4.4" />
+  <project path="hardware/libhardware" name="Mahdi-Rom/android_hardware_libhardware" groups="pdk" remote="github" revision="kk-4.4" />
+  <project path="hardware/libhardware_legacy" name="Mahdi-Rom/android_hardware_libhardware_legacy" groups="pdk" remote="github" revision="kk-4.4" />
+  <project path="hardware/qcom/audio" name="Mahdi-Rom/android_hardware_qcom_audio" groups="qcom" remote="github" revision="kk-4.4" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
-  <project path="hardware/qcom/camera" name="Mahdi-Rom/android_hardware_qcom_camera" groups="qcom" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="hardware/qcom/display" name="Mahdi-Rom/android_hardware_qcom_display" groups="qcom" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="hardware/qcom/display-caf" name="Mahdi-Rom/android_hardware_qcom_display-caf" groups="qcom" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="hardware/qcom/gps" name="Mahdi-Rom/android_hardware_qcom_gps" groups="qcom" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="hardware/qcom/keymaster" name="Mahdi-Rom/android_hardware_qcom_keymaster" groups="qcom" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="hardware/qcom/media" name="Mahdi-Rom/android_hardware_qcom_media" groups="qcom" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="hardware/qcom/media-caf" name="Mahdi-Rom/android_hardware_qcom_media-caf" groups="qcom" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="hardware/qcom/msm8960" name="Mahdi-Rom/android_hardware_qcom_msm8960" groups="qcom_msm8960" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="hardware/qcom/camera" name="Mahdi-Rom/android_hardware_qcom_camera" groups="qcom" remote="github" revision="kk-4.4" />
+  <project path="hardware/qcom/display" name="Mahdi-Rom/android_hardware_qcom_display" groups="qcom" remote="github" revision="kk-4.4" />
+  <project path="hardware/qcom/keymaster" name="Mahdi-Rom/android_hardware_qcom_keymaster" groups="qcom" remote="github" revision="kk-4.4" />
+  <project path="hardware/qcom/media" name="Mahdi-Rom/android_hardware_qcom_media" groups="qcom" remote="github" revision="kk-4.4" />
+  <project path="hardware/qcom/msm8960" name="Mahdi-Rom/android_hardware_qcom_msm8960" groups="qcom_msm8960" remote="github" revision="kk-4.4" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" />
-  <project path="hardware/qcom/power" name="Mahdi-Rom/android_hardware_qcom_power" groups="qcom" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="hardware/qcom/power" name="Mahdi-Rom/android_hardware_qcom_power" groups="qcom" remote="github" revision="kk-4.4" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
-  <project path="hardware/qcom/wlan" name="Mahdi-Rom/android_hardware_qcom_wlan" groups="qcom" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="hardware/ril" name="Mahdi-Rom/android_hardware_ril" groups="pdk" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="hardware/samsung" name="Mahdi-Rom/android_hardware_samsung" groups="pdk" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="hardware/qcom/wlan" name="Mahdi-Rom/android_hardware_qcom_wlan" groups="qcom" remote="github" revision="kk-4.4" />
+  <project path="hardware/ril" name="Mahdi-Rom/android_hardware_ril" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
-  <project path="libcore" name="Mahdi-Rom/android_libcore" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="libcore" name="Mahdi-Rom/android_libcore" remote="github" revision="kk-4.4" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
-  <project path="packages/apps/Apollo" name="Mahdi-Rom/android_packages_apps_Apollo" remote="Mahdi-Rom" revision="kk-4.4" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
-  <project path="packages/apps/Bluetooth" name="Mahdi-Rom/android_packages_apps_Bluetooth" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="packages/apps/Browser" name="Mahdi-Rom/android_packages_apps_Browser" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="packages/apps/Calculator" name="Mahdi-Rom/android_packages_apps_Calculator" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="packages/apps/Calendar" name="Mahdi-Rom/android_packages_apps_Calendar" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />  
-  <project path="packages/apps/Camera2" name="Mahdi-Rom/android_packages_apps_Camera2" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="packages/apps/Bluetooth" name="Mahdi-Rom/android_packages_apps_Bluetooth" remote="github" revision="kk-4.4" />
+  <project path="packages/apps/Browser" name="Mahdi-Rom/android_packages_apps_Browser" remote="github" revision="kk-4.4" />
+  <project path="packages/apps/Calculator" name="Mahdi-Rom/android_packages_apps_Calculator" remote="github" revision="kk-4.4" />
+  <project path="packages/apps/Calendar" name="Mahdi-Rom/android_packages_apps_Calendar" remote="github" revision="kk-4.4" />
+  <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
+  <project path="packages/apps/Camera2" name="Mahdi-Rom/android_packages_apps_Camera2" remote="github" revision="kk-4.4" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/CMFileManager" name="Mahdi-Rom/android_packages_apps_CMFileManager" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="packages/apps/Contacts" name="Mahdi-Rom/android_packages_apps_Contacts" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="packages/apps/ContactsCommon" name="Mahdi-Rom/android_packages_apps_ContactsCommon" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="packages/apps/Contacts" name="Mahdi-Rom/android_packages_apps_Contacts" remote="github" revision="kk-4.4" />
+  <project path="packages/apps/ContactsCommon" name="Mahdi-Rom/android_packages_apps_ContactsCommon" remote="github" revision="kk-4.4" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
-  <project path="packages/apps/Dialer" name="Mahdi-Rom/android_packages_apps_Dialer" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="packages/apps/DSPManager" name="Mahdi-Rom/android_packages_apps_DSPManager" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="packages/apps/Dialer" name="Mahdi-Rom/android_packages_apps_Dialer" remote="github" revision="kk-4.4" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
-  <project path="packages/apps/Gallery2" name="Mahdi-Rom/android_packages_apps_Gallery2" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="packages/apps/Gallery2" name="Mahdi-Rom/android_packages_apps_Gallery2" remote="github" revision="kk-4.4" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
-  <project path="packages/apps/InCallUI" name="Mahdi-Rom/android_packages_apps_InCallUI" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="packages/apps/InCallUI" name="Mahdi-Rom/android_packages_apps_InCallUI" remote="github" revision="kk-4.4" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
-  <project path="packages/apps/LockClock" name="Mahdi-Rom/android_packages_apps_LockClock" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="packages/apps/Launcher2" name="Mahdi-Rom/android_packages_apps_Launcher2" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="packages/apps/Launcher2" name="Mahdi-Rom/android_packages_apps_Launcher2" remote="github" revision="kk-4.4" />
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
-  <project path="packages/apps/MahdiCenter" name="Mahdi-Rom/android_packages_apps_MahdiCenter" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="packages/apps/Mms" name="Mahdi-Rom/android_packages_apps_Mms" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="packages/apps/Mms" name="Mahdi-Rom/android_packages_apps_Mms" remote="github" revision="kk-4.4" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
-  <project path="packages/apps/PackageInstaller" name="Mahdi-Rom/android_packages_apps_PackageInstaller" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="packages/apps/PerformanceControl" name="Mahdi-Rom/android_packages_apps_PerformanceControl" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="packages/apps/PackageInstaller" name="Mahdi-Rom/android_packages_apps_PackageInstaller" remote="github" revision="kk-4.4" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/ScreenRecorder" name="Mahdi-Rom/android_packages_apps_ScreenRecorder" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="packages/apps/Settings" name="Mahdi-Rom/android_packages_apps_Settings" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="packages/apps/Settings" name="Mahdi-Rom/android_packages_apps_Settings" remote="github" revision="kk-4.4" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
-  <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
+  <project path="packages/apps/SoundRecorder" name="Mahdi-Rom/android_packages_apps_SoundRecorder" remote="github" revision="cm-11.0" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
-  <project path="packages/apps/Torch" name="Mahdi-Rom/android_packages_apps_Torch" remote="Mahdi-Rom" revision="kk-4.4" />
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
+  <project path="packages/inputmethods/LatinIME" name="Mahdi-Rom/android_packages_inputmethods_LatinIME" remote="github" revision="cm-11.0" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" />
-  <project path="packages/providers/MediaProvider" name="Mahdi-Rom/android_packages_providers_MediaProvider" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="packages/providers/MediaProvider" name="Mahdi-Rom/android_packages_providers_MediaProvider" remote="github" revision="kk-4.4" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
-  <project path="packages/providers/TelephonyProvider" name="Mahdi-Rom/android_packages_providers_TelephonyProvider" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="packages/providers/TelephonyProvider" name="Mahdi-Rom/android_packages_providers_TelephonyProvider" remote="github" revision="kk-4.4" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
-  <project path="packages/services/Telephony" name="Mahdi-Rom/android_packages_services_Telephony" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="packages/services/Telephony" name="Mahdi-Rom/android_packages_services_Telephony" remote="github" revision="kk-4.4" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
@@ -400,7 +364,7 @@
   <project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" />
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
-  <project path="packages/wallpapers/PhaseBeam" name="Mahdi-Rom/android_packages_wallpapers_PhaseBeam" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="packages/wallpapers/PhaseBeam" name="Mahdi-Rom/android_packages_wallpapers_PhaseBeam" remote="github" revision="kk-4.4" />
   <project path="pdk" name="platform/pdk" groups="pdk" />
   <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="pdk,darwin" />
   <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="pdk,darwin" />
@@ -450,12 +414,12 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/core" name="Mahdi-Rom/android_system_core" groups="pdk" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="system/extras" name="Mahdi-Rom/android_system_extras" groups="pdk" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="system/media" name="Mahdi-Rom/android_system_media" groups="pdk" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="system/netd" name="Mahdi-Rom/android_system_netd" groups="pdk" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="system/core" name="Mahdi-Rom/android_system_core" groups="pdk" remote="github" revision="kk-4.4" />
+  <project path="system/extras" name="Mahdi-Rom/android_system_extras" groups="pdk" remote="github" revision="kk-4.4" />
+  <project path="system/media" name="Mahdi-Rom/android_system_media" groups="pdk" remote="github" revision="kk-4.4" />
+  <project path="system/netd" name="Mahdi-Rom/android_system_netd" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/vold" name="Mahdi-Rom/android_system_vold" groups="pdk" remote="Mahdi-Rom" revision="kk-4.4" />
+  <project path="system/vold" name="Mahdi-Rom/android_system_vold" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
@@ -468,14 +432,67 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
-  <!--CyanogenMod Power Hal -->
+  <!-- CyanogenMod Power Hal -->
   <project path="hardware/cm" name="Mahdi-Rom/android_hardware_cm" remote="github" revision="kk-4.4" />
 
-  <project path="vendor/mahdi" name="Mahdi-Rom/android_vendor_mahdi" remote="Mahdi-Rom" revision="kk-4.4" />
+  <!-- CyanogenMod Misc -->
+  <project path="external/fuse" name="Mahdi-Rom/android_external_fuse" groups="pdk" remote="github" revision="kk-4.4" />
+  <project path="external/libncurses" name="Mahdi-Rom/android_external_libncurses" groups="pdk" remote="github" revision="kk-4.4" />
+  <project path="external/libtar" name="Mahdi-Rom/android_external_libtar" remote="github" revision="kk-4.4" />
+  <project path="external/bash" name="Mahdi-Rom/android_external_bash" remote="github" revision="kk-4.4" />
+  <project path="external/busybox" name="Mahdi-Rom/android_external_busybox" remote="github" revision="kk-4.4" />
+  <project path="external/crda" name="Mahdi-Rom/android_external_crda" groups="pdk" remote="github" revision="kk-4.4" />
+  <project path="external/exfat" name="Mahdi-Rom/android_external_exfat" groups="pdk" remote="github" revision="kk-4.4" />
+  <project path="external/kissfft" name="Mahdi-Rom/android_external_kissfft" groups="pdk" remote="github" revision="kk-4.4" />
+  <project path="external/nano" name="Mahdi-Rom/android_external_nano" remote="github" revision="kk-4.4" />
+  <project path="external/ntfs-3g" name="Mahdi-Rom/android_external_ntfs-3g" remote="github" revision="kk-4.4" />
+  <project path="external/pciutils" name="Mahdi-Rom/android_external_pciutils" remote="github" revision="kk-4.4" />
+  <project path="external/pigz" name="Mahdi-Rom/android_external_pigz" remote="github" revision="kk-4.4" />
 
-  <project path="vendor/tmobile/apps/ThemeChooser" name="Mahdi-Rom/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="vendor/tmobile/libs/com.tmobile.themes" name="Mahdi-Rom/android_vendor_tmobile_libs_com.tmobile.themes" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="vendor/tmobile/providers/ThemeManager" name="Mahdi-Rom/android_vendor_tmobile_providers_ThemeManager" remote="Mahdi-Rom" revision="kk-4.4" />
-  
+  <project path="external/rsync" name="Mahdi-Rom/android_external_rsync" remote="github" revision="cm-11.0" />
+  <project path="external/gson" name="Mahdi-Rom/android_external_gson" remote="github" revision="cm-11.0" />
+  <project path="external/koush/ion" name="Mahdi-Rom/android_external_koush_ion" remote="github" revision="cm-11.0" />
+  <project path="external/koush/AndroidAsync" name="Mahdi-Rom/android_external_koush_AndroidAsync" remote="github" revision="cm-11.0" />
+  <project path="external/koush/Superuser" name="Mahdi-Rom/android_external_koush_Superuser" remote="github" revision="cm-11.0" />
+  <project path="external/koush/Widgets" name="Mahdi-Rom/android_external_koush_Widgets" remote="github" revision="cm-11.0" />
+
+  <project path="packages/apps/VoicePlus" name="Mahdi-Rom/android_packages_apps_VoicePlus" remote="github" revision="cm-11.0" />
+
+  <project path="packages/apps/Apollo" name="Mahdi-Rom/android_packages_apps_Apollo" remote="github" revision="kk-4.4" />
+  <project path="packages/apps/CMFileManager" name="Mahdi-Rom/android_packages_apps_CMFileManager" remote="github" revision="kk-4.4" />
+  <project path="packages/apps/DSPManager" name="Mahdi-Rom/android_packages_apps_DSPManager" remote="github" revision="kk-4.4" />
+  <project path="packages/apps/Torch" name="Mahdi-Rom/android_packages_apps_Torch" remote="github" revision="kk-4.4" />
+  <project path="packages/apps/ScreenRecorder" name="Mahdi-Rom/android_packages_apps_ScreenRecorder" remote="github" revision="kk-4.4" />
+  <project path="packages/apps/LockClock" name="Mahdi-Rom/android_packages_apps_LockClock" remote="github" revision="kk-4.4" />
+  <project path="packages/apps/PerformanceControl" name="Mahdi-Rom/android_packages_apps_PerformanceControl" remote="github" revision="kk-4.4" />
+
+  <!-- CyanogenMod H/W suppport -->
+  <project path="hardware/samsung" name="Mahdi-Rom/android_hardware_samsung" groups="pdk" remote="github" revision="kk-4.4" />
+  <project path="hardware/qcom/audio-caf" name="Mahdi-Rom/android_hardware_qcom_audio-caf" groups="qcom" remote="github" revision="kk-4.4" />
+  <project path="hardware/qcom/display-caf" name="Mahdi-Rom/android_hardware_qcom_display-caf" groups="qcom" remote="github" revision="kk-4.4" />
+  <project path="hardware/qcom/media-caf" name="Mahdi-Rom/android_hardware_qcom_media-caf" groups="qcom" remote="github" revision="kk-4.4" />
+  <project path="hardware/qcom/gps" name="Mahdi-Rom/android_hardware_qcom_gps" groups="qcom" remote="github" revision="kk-4.4" />
+
+  <!-- CyanogenMod devices -->
+  <project path="device/lge/v500" name="Mahdi-Rom/android_device_lge_v500" remote="github" revision="kk-4.4" />
+  <project path="device/samsung/jf-common" name="Mahdi-Rom/android_device_samsung_jf-common" remote="github" revision="kk-4.4" />
+  <project path="device/samsung/jfltexx" name="Mahdi-Rom/android_device_samsung_jfltexx" remote="github" revision="kk-4.4" />
+  <project path="device/samsung/msm8960-common" name="Mahdi-Rom/android_device_samsung_msm8960-common" remote="github" revision="kk-4.4" />
+  <project path="device/samsung/qcom-common" name="Mahdi-Rom/android_device_samsung_qcom-common" remote="github" revision="kk-4.4" />
+  <project path="device/samsung/aries-common" name="Mahdi-Rom/android_device_samsung_aries-common" remote="github" revision="kk-4.4" />
+  <project path="device/samsung/galaxysmtd" name="Mahdi-Rom/android_device_samsung_galaxysmtd" remote="github" revision="kk-4.4" />
+  <project path="device/samsung/galaxys2-common" name="Mahdi-Rom/android_device_samsung_galaxys2-common" remote="github" revision="kk-4.4" />
+  <project path="device/samsung/i9100" name="Mahdi-Rom/android_device_samsung_i9100" remote="github" revision="kk-4.4" />
+
+  <!-- Mahdi-Rom vendor -->
+  <project path="vendor/mahdi" name="Mahdi-Rom/android_vendor_mahdi" remote="github" revision="kk-4.4" >
+    <copyfile src="build.sh" dest="build.sh" />
+  </project>
+  <project path="packages/apps/MahdiCenter" name="Mahdi-Rom/android_packages_apps_MahdiCenter" remote="github" revision="kk-4.4" />
+
+  <!-- Theme Manager -->
+  <project path="vendor/tmobile/apps/ThemeChooser" name="Mahdi-Rom/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="github" revision="kk-4.4" />
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="Mahdi-Rom/android_vendor_tmobile_libs_com.tmobile.themes" remote="github" revision="kk-4.4" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="Mahdi-Rom/android_vendor_tmobile_providers_ThemeManager" remote="github" revision="kk-4.4" />
 
 </manifest>
