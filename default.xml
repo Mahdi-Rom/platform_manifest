@@ -328,7 +328,6 @@
   <project path="packages/apps/Apollo" name="Mahdi-Rom/android_packages_apps_Apollo" remote="Mahdi-Rom" revision="kk-4.4" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="Mahdi-Rom/android_packages_apps_Bluetooth" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="packages/apps/BluetoothExt" name="Mahdi-Rom/android_packages_apps_BluetoothExt" remote="Mahdi-Rom" revision="kk-4.4" />
   <project path="packages/apps/Browser" name="Mahdi-Rom/android_packages_apps_Browser" remote="Mahdi-Rom" revision="kk-4.4" />
   <project path="packages/apps/Calculator" name="Mahdi-Rom/android_packages_apps_Calculator" remote="Mahdi-Rom" revision="kk-4.4" />
   <project path="packages/apps/Calendar" name="Mahdi-Rom/android_packages_apps_Calendar" remote="Mahdi-Rom" revision="kk-4.4" />
@@ -455,7 +454,6 @@
   <project path="system/extras" name="Mahdi-Rom/android_system_extras" groups="pdk" remote="Mahdi-Rom" revision="kk-4.4" />
   <project path="system/media" name="Mahdi-Rom/android_system_media" groups="pdk" remote="Mahdi-Rom" revision="kk-4.4" />
   <project path="system/netd" name="Mahdi-Rom/android_system_netd" groups="pdk" remote="Mahdi-Rom" revision="kk-4.4" />
-  <project path="system/qcom" name="Mahdi-Rom/android_system_qcom" groups="pdk" remote="Mahdi-Rom" revision="kk-4.4" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/vold" name="Mahdi-Rom/android_system_vold" groups="pdk" remote="Mahdi-Rom" revision="kk-4.4" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
