@@ -242,7 +242,7 @@
   <project path="external/yaffs2" name="Mahdi-Rom/android_external_yaffs2" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="external/zlib" name="Mahdi-Rom/android_external_zlib" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="Mahdi-Rom/android_frameworks_av" groups="pdk" remote="github" revision="kk-4.4" />
+  <project path="frameworks/av" name="Mahdi-Rom/android_frameworks_av" groups="pdk" remote="github" revision="kk-4.4-aosp" />
   <project path="frameworks/base" name="Mahdi-Rom/android_frameworks_base" remote="github" revision="kk-4.4" />
   <project path="frameworks/compile/libbcc" name="Mahdi-Rom/android_frameworks_compile_libbcc" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="frameworks/compile/mclinker" name="Mahdi-Rom/android_frameworks_compile_mclinker" groups="pdk" remote="github" revision="kk-4.4" />
@@ -250,7 +250,7 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="Mahdi-Rom/android_frameworks_native" groups="pdk" remote="github" revision="kk-4.4" />
+  <project path="frameworks/native" name="Mahdi-Rom/android_frameworks_native" groups="pdk" remote="github" revision="kk-4.4-aosp" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/colorpicker" name="Mahdi-Rom/android_frameworks_opt_colorpicker" remote="github" revision="kk-4.4" />
@@ -275,8 +275,8 @@
   <project path="hardware/broadcom/libbt" name="Mahdi-Rom/android_hardware_broadcom_libbt" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="hardware/broadcom/wlan" name="Mahdi-Rom/android_hardware_broadcom_wlan" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="hardware/invensense" name="Mahdi-Rom/android_hardware_invensense" groups="invensense" remote="github" revision="kk-4.4" />
-  <project path="hardware/libhardware" name="Mahdi-Rom/android_hardware_libhardware" groups="pdk" remote="github" revision="kk-4.4" />
-  <project path="hardware/libhardware_legacy" name="Mahdi-Rom/android_hardware_libhardware_legacy" groups="pdk" remote="github" revision="kk-4.4" />
+  <project path="hardware/libhardware" name="Mahdi-Rom/android_hardware_libhardware" groups="pdk" remote="github" revision="kk-4.4-aosp" />
+  <project path="hardware/libhardware_legacy" name="Mahdi-Rom/android_hardware_libhardware_legacy" groups="pdk" remote="github" revision="kk-4.4-aosp" />
   <project path="hardware/qcom/audio" name="Mahdi-Rom/android_hardware_qcom_audio" groups="qcom" remote="github" revision="kk-4.4" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="Mahdi-Rom/android_hardware_qcom_camera" groups="qcom" remote="github" revision="kk-4.4" />
@@ -303,7 +303,7 @@
   <project path="packages/apps/Calculator" name="Mahdi-Rom/android_packages_apps_Calculator" remote="github" revision="kk-4.4" />
   <project path="packages/apps/Calendar" name="Mahdi-Rom/android_packages_apps_Calendar" remote="github" revision="kk-4.4" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
-  <project path="packages/apps/Camera2" name="Mahdi-Rom/android_packages_apps_Camera2" remote="github" revision="kk-4.4" />
+  <project path="packages/apps/Camera2" name="Mahdi-Rom/android_packages_apps_Camera2" remote="github" revision="kk-4.4-aosp" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="Mahdi-Rom/android_packages_apps_Contacts" remote="github" revision="kk-4.4" />
@@ -313,7 +313,7 @@
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
-  <project path="packages/apps/Gallery2" name="Mahdi-Rom/android_packages_apps_Gallery2" remote="github" revision="kk-4.4" />
+  <project path="packages/apps/Gallery2" name="Mahdi-Rom/android_packages_apps_Gallery2" remote="github" revision="kk-4.4-aosp" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/InCallUI" name="Mahdi-Rom/android_packages_apps_InCallUI" remote="github" revision="kk-4.4" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
