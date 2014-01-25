@@ -103,7 +103,7 @@
   <project path="external/doclava" name="platform/external/doclava" />
   <project path="external/dropbear" name="platform/external/dropbear" />
   <project path="external/droiddriver" name="platform/external/droiddriver" />
-  <project path="external/e2fsprogs" name="Mahdi-Rom/android_external_e2fsprogs" groups="pdk" remote="github" revision="cm-11.0" />
+  <project path="external/e2fsprogs" name="Mahdi-Rom/android_external_e2fsprogs" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" />
@@ -333,7 +333,7 @@
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
   <project path="packages/apps/Settings" name="Mahdi-Rom/android_packages_apps_Settings" remote="github" revision="kk-4.4" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
-  <project path="packages/apps/SoundRecorder" name="Mahdi-Rom/android_packages_apps_SoundRecorder" remote="github" revision="cm-11.0" />
+  <project path="packages/apps/SoundRecorder" name="Mahdi-Rom/android_packages_apps_SoundRecorder" remote="github" revision="kk-4.4" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
@@ -342,7 +342,7 @@
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="Mahdi-Rom/android_packages_inputmethods_LatinIME" remote="github" revision="cm-11.0" />
+  <project path="packages/inputmethods/LatinIME" name="Mahdi-Rom/android_packages_inputmethods_LatinIME" remote="github" revision="kk-4.4" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
@@ -449,14 +449,14 @@
   <project path="external/pciutils" name="Mahdi-Rom/android_external_pciutils" remote="github" revision="kk-4.4" />
   <project path="external/pigz" name="Mahdi-Rom/android_external_pigz" remote="github" revision="kk-4.4" />
 
-  <project path="external/rsync" name="Mahdi-Rom/android_external_rsync" remote="github" revision="cm-11.0" />
-  <project path="external/gson" name="Mahdi-Rom/android_external_gson" remote="github" revision="cm-11.0" />
-  <project path="external/koush/ion" name="Mahdi-Rom/android_external_koush_ion" remote="github" revision="cm-11.0" />
-  <project path="external/koush/AndroidAsync" name="Mahdi-Rom/android_external_koush_AndroidAsync" remote="github" revision="cm-11.0" />
-  <project path="external/koush/Superuser" name="Mahdi-Rom/android_external_koush_Superuser" remote="github" revision="cm-11.0" />
-  <project path="external/koush/Widgets" name="Mahdi-Rom/android_external_koush_Widgets" remote="github" revision="cm-11.0" />
+  <project path="external/rsync" name="Mahdi-Rom/android_external_rsync" remote="github" revision="kk-4.4" />
+  <project path="external/gson" name="Mahdi-Rom/android_external_gson" remote="github" revision="kk-4.4" />
+  <project path="external/koush/ion" name="Mahdi-Rom/android_external_koush_ion" remote="github" revision="kk-4.4" />
+  <project path="external/koush/AndroidAsync" name="Mahdi-Rom/android_external_koush_AndroidAsync" remote="github" revision="kk-4.4" />
+  <project path="external/koush/Superuser" name="Mahdi-Rom/android_external_koush_Superuser" remote="github" revision="kk-4.4" />
+  <project path="external/koush/Widgets" name="Mahdi-Rom/android_external_koush_Widgets" remote="github" revision="kk-4.4" />
 
-  <project path="packages/apps/VoicePlus" name="Mahdi-Rom/android_packages_apps_VoicePlus" remote="github" revision="cm-11.0" />
+  <project path="packages/apps/VoicePlus" name="Mahdi-Rom/android_packages_apps_VoicePlus" remote="github" revision="kk-4.4" />
 
   <project path="packages/apps/Apollo" name="Mahdi-Rom/android_packages_apps_Apollo" remote="github" revision="kk-4.4" />
   <project path="packages/apps/CMFileManager" name="Mahdi-Rom/android_packages_apps_CMFileManager" remote="github" revision="kk-4.4" />
