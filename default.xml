@@ -303,7 +303,7 @@
   <project path="packages/apps/Calculator" name="Mahdi-Rom/android_packages_apps_Calculator" remote="github" revision="kk-4.4" />
   <project path="packages/apps/Calendar" name="Mahdi-Rom/android_packages_apps_Calendar" remote="github" revision="kk-4.4" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
-  <project path="packages/apps/Camera2" name="Mahdi-Rom/android_packages_apps_Camera2" remote="github" revision="kk-4.4" />
+  <project path="packages/apps/Camera2" name="Mahdi-Rom/android_packages_apps_Camera2" remote="github" revision="kk-4.4-aosp" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="Mahdi-Rom/android_packages_apps_Contacts" remote="github" revision="kk-4.4" />
