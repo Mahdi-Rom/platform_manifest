@@ -442,6 +442,7 @@
   <project path="external/busybox" name="Mahdi-Rom/android_external_busybox" remote="github" revision="kk-4.4" />
   <project path="external/crda" name="Mahdi-Rom/android_external_crda" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="external/exfat" name="Mahdi-Rom/android_external_exfat" groups="pdk" remote="github" revision="kk-4.4" />
+  <project path="external/google" name="Mahdi-Rom/android_external_google" remote="github" revision="kk-4.4" />
   <project path="external/kissfft" name="Mahdi-Rom/android_external_kissfft" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="external/nano" name="Mahdi-Rom/android_external_nano" remote="github" revision="kk-4.4" />
   <project path="external/ntfs-3g" name="Mahdi-Rom/android_external_ntfs-3g" remote="github" revision="kk-4.4" />
