@@ -466,6 +466,7 @@
   <project path="packages/apps/OmniSwitch" name="Mahdi-Rom/android_packages_apps_OmniSwitch" remote="github" revision="kk-4.4" />
   <project path="packages/apps/MahdiSetupWizard" name="Mahdi-Rom/android_packages_apps_MahdiSetupWizard" remote="github" revision="kk-4.4" />
   <project path="packages/apps/MahdiCenter" name="Mahdi-Rom/android_packages_apps_MahdiCenter" remote="github" revision="kk-4.4" />
+  <project path="packages/apps/Trebuchet" name="Mahdi-Rom/android_packages_apps_Trebuchet" remote="github" revision="kk-4.4" />
 
   <!-- H/W suppport -->
   <project path="hardware/qcom/audio-caf" name="Mahdi-Rom/android_hardware_qcom_audio-caf" groups="qcom" remote="github" revision="kk-4.4" />
