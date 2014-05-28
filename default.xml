@@ -435,6 +435,7 @@
   <!-- Misc -->
   <project path="frameworks/opt/cards" name="Mahdi-Rom/android_frameworks_opt_cards" remote="github" revision="kk-4.4" />
 
+  <project path="external/android-visualizer" name="Mahdi-Rom/android_external_android-visualizer" remote="github" revision="kk-4.4" />
   <project path="external/fuse" name="Mahdi-Rom/android_external_fuse" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="external/libncurses" name="Mahdi-Rom/android_external_libncurses" groups="pdk" remote="github" revision="kk-4.4" />
   <project path="external/libtar" name="Mahdi-Rom/android_external_libtar" remote="github" revision="kk-4.4" />
