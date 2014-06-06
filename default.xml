@@ -245,15 +245,15 @@
   <project path="external/yaffs2" name="Mahdi-Rom/android_external_yaffs2" groups="pdk" remote="github" revision="kk-4.4.3" />
   <project path="external/zlib" name="Mahdi-Rom/android_external_zlib" groups="pdk" remote="github" revision="kk-4.4.3" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="Mahdi-Rom/android_frameworks_av" groups="pdk" remote="github" revision="kk-4.4.3" />
-  <project path="frameworks/base" name="Mahdi-Rom/android_frameworks_base" remote="github" revision="kk-4.4.3" />
+  <project path="frameworks/av" name="Mahdi-Rom/android_frameworks_av" groups="pdk" remote="github" revision="kk-4.4.3-caf" />
+  <project path="frameworks/base" name="Mahdi-Rom/android_frameworks_base" remote="github" revision="kk-4.4.3-caf" />
   <project path="frameworks/compile/libbcc" name="Mahdi-Rom/android_frameworks_compile_libbcc" groups="pdk" remote="github" revision="kk-4.4.3" />
   <project path="frameworks/compile/mclinker" name="Mahdi-Rom/android_frameworks_compile_mclinker" groups="pdk" remote="github" revision="kk-4.4.3" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="Mahdi-Rom/android_frameworks_native" groups="pdk" remote="github" revision="kk-4.4.3" />
+  <project path="frameworks/native" name="Mahdi-Rom/android_frameworks_native" groups="pdk" remote="github" revision="kk-4.4.3-caf" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/colorpicker" name="Mahdi-Rom/android_frameworks_opt_colorpicker" remote="github" revision="kk-4.4.3" />
@@ -278,8 +278,8 @@
   <project path="hardware/broadcom/libbt" name="Mahdi-Rom/android_hardware_broadcom_libbt" groups="pdk" remote="github" revision="kk-4.4.3" />
   <project path="hardware/broadcom/wlan" name="Mahdi-Rom/android_hardware_broadcom_wlan" groups="pdk" remote="github" revision="kk-4.4.3" />
   <project path="hardware/invensense" name="Mahdi-Rom/android_hardware_invensense" groups="invensense" remote="github" revision="kk-4.4.3" />
-  <project path="hardware/libhardware" name="Mahdi-Rom/android_hardware_libhardware" groups="pdk" remote="github" revision="kk-4.4.3" />
-  <project path="hardware/libhardware_legacy" name="Mahdi-Rom/android_hardware_libhardware_legacy" groups="pdk" remote="github" revision="kk-4.4.3" />
+  <project path="hardware/libhardware" name="Mahdi-Rom/android_hardware_libhardware" groups="pdk" remote="github" revision="kk-4.4.3-caf" />
+  <project path="hardware/libhardware_legacy" name="Mahdi-Rom/android_hardware_libhardware_legacy" groups="pdk" remote="github" revision="kk-4.4.3-caf" />
   <project path="hardware/qcom/audio" name="Mahdi-Rom/android_hardware_qcom_audio" groups="qcom" remote="github" revision="kk-4.4.3" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="Mahdi-Rom/android_hardware_qcom_camera" groups="qcom" remote="github" revision="kk-4.4.3" />
@@ -336,7 +336,7 @@
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
   <project path="packages/apps/Settings" name="Mahdi-Rom/android_packages_apps_Settings" remote="github" revision="kk-4.4.3" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
-  <project path="packages/apps/SoundRecorder" name="Mahdi-Rom/android_packages_apps_SoundRecorder" remote="github" revision="kk-4.4.3" />
+  <project path="packages/apps/SoundRecorder" name="Mahdi-Rom/android_packages_apps_SoundRecorder" remote="github" revision="kk-4.4.3-caf" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
