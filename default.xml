@@ -320,8 +320,6 @@
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/InCallUI" name="Mahdi-Rom/android_packages_apps_InCallUI" remote="github" revision="kk-4.4.3" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
-  <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
-  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/Mms" name="Mahdi-Rom/android_packages_apps_Mms" remote="github" revision="kk-4.4.3" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
