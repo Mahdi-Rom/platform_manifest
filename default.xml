@@ -29,7 +29,6 @@
   <project path="development" name="Mahdi-Rom/android_development" remote="github" revision="kk-4.4.3" />
   <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" />
   <project path="device/asus/flo" name="Mahdi-Rom/android_device_asus_flo" groups="device,flo" remote="github" revision="kk-4.4.3" />
-  <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" />
   <project path="device/asus/grouper" name="Mahdi-Rom/android_device_asus_grouper" groups="device,grouper" remote="github" revision="kk-4.4.3" />
   <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device,grouper" />
   <project path="device/common" name="device/common" />
@@ -44,9 +43,7 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/lge/hammerhead" name="Mahdi-Rom/android_device_lge_hammerhead" groups="device,hammerhead" remote="github" revision="kk-4.4.3" />
-  <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" />
   <project path="device/lge/mako" name="Mahdi-Rom/android_device_lge_mako" groups="device,mako" remote="github" revision="kk-4.4.3" />
-  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
