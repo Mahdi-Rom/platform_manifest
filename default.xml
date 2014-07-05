@@ -464,8 +464,6 @@
   <project path="packages/apps/Torch" name="Mahdi-Rom/android_packages_apps_Torch" remote="github" revision="kk-4.4.3" />
   <project path="packages/apps/ScreenRecorder" name="Mahdi-Rom/android_packages_apps_ScreenRecorder" remote="github" revision="kk-4.4.3" />
   <project path="packages/apps/LockClock" name="Mahdi-Rom/android_packages_apps_LockClock" remote="github" revision="kk-4.4.3" />
-  <project path="packages/apps/KernelTweaker" name="Mahdi-Rom/android_packages_apps_KernelTweaker" remote="github" revision="kk-4.4.3" />
-  <project path="packages/apps/OmniSwitch" name="Mahdi-Rom/android_packages_apps_OmniSwitch" remote="github" revision="kk-4.4.3" />
   <project path="packages/apps/MahdiSetupWizard" name="Mahdi-Rom/android_packages_apps_MahdiSetupWizard" remote="github" revision="kk-4.4.3" />
   <project path="packages/apps/MahdiCenter" name="Mahdi-Rom/android_packages_apps_MahdiCenter" remote="github" revision="kk-4.4.3" />
   <project path="packages/apps/Trebuchet" name="Mahdi-Rom/android_packages_apps_Trebuchet" remote="github" revision="kk-4.4.3" />
