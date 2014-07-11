@@ -278,7 +278,7 @@
   <project path="hardware/libhardware" name="Mahdi-Rom/android_hardware_libhardware" groups="pdk" remote="github" revision="kk-4.4.3" />
   <project path="hardware/libhardware_legacy" name="Mahdi-Rom/android_hardware_libhardware_legacy" groups="pdk" remote="github" revision="kk-4.4.3" />
   <project path="hardware/qcom/audio" name="Mahdi-Rom/android_hardware_qcom_audio" groups="qcom" remote="github" revision="kk-4.4.3" />
-  <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
+  <project path="hardware/qcom/bt" name="Mahdi-Rom/android_hardware_qcom_bt" groups="qcom" remote="github" revision="kk-4.4.3" />
   <project path="hardware/qcom/camera" name="Mahdi-Rom/android_hardware_qcom_camera" groups="qcom" remote="github" revision="kk-4.4.3" />
   <project path="hardware/qcom/display" name="Mahdi-Rom/android_hardware_qcom_display" groups="qcom" remote="github" revision="kk-4.4.3" />
   <project path="hardware/qcom/keymaster" name="Mahdi-Rom/android_hardware_qcom_keymaster" groups="qcom" remote="github" revision="kk-4.4.3" />
