@@ -482,12 +482,13 @@
   <project path="packages/providers/ThemesProvider" name="Mahdi-Rom/android_packages_providers_ThemesProvider" remote="github" revision="kk-4.4.3" />
 
   <!-- GOOGLE GCC TOOLCHAIN -->
-  <project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="aosp" revision="master" />
-  <project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="aosp" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="Octo-Kat/platform_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.8" groups="pdk, linux, arm" remote="github" revision="kk-4.4" />
   
   <!-- LINARO TOOLCHAIN -->
-  <project name="JustArchi/Linaro" path="prebuilt/linux-x86/toolchain/linaro-arm-eabi-4.8" remote="github" revision="4.8-eabi" />
-
+  <project path="prebuilts/gcc/linux-x86/arm/Linaro-4.7" name="Octo-Kat/Linaro_47x_toolchain" remote="github" revision="kk-4.4" />
+  <project path="prebuilts/gcc/linux-x86/arm/Linaro-4.8" name="AOSP-S4-KK/platform_prebuilts_gcc_linux-x86_arm_linaro_arm_gnuabihf-4.8" remote="github" revision="kk-4.4" />
+  <project path="prebuilts/gcc/linux-x86/arm/Linaro-4.9" name="AOSP-S4-KK/platform_prebuilts_gcc_linux-x86_arm_linaro_arm_gnuabihf-4.9" remote="github" revision="kk-4.4" />
+  
   <!-- i9500 Hardware Support-->
   <project path="vendor/samsung" name="GearCM/proprietary_vendor_samsung" remote="github" revision="cm-11.0" />
   <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-11.0" />
