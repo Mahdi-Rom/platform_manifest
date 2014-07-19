@@ -15,7 +15,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="art" name="GearCM/android_art" remote="github" revision="cm-11.0" />
+  <project path="art" name="Mahdi-Rom/android_art" remote="github" revision="kk-4.4.3" />
   <project path="bionic" name="Mahdi-Rom/android_bionic" groups="pdk" remote="github" revision="kk-4.4.3" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
@@ -273,7 +273,6 @@
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
   <project path="hardware/qcom/wlan" name="Mahdi-Rom/android_hardware_qcom_wlan" groups="qcom" remote="github" revision="kk-4.4.3-caf" />
   <project path="hardware/ril" name="Mahdi-Rom/android_hardware_ril" groups="pdk" remote="github" revision="kk-4.4.3" />
-  <project path="hardware/samsung_slsi/exynos5" name="CyanogenMod/android_hardware_samsung_slsi_exynos5" remote="github" revision="cm-11.0" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
@@ -481,21 +480,14 @@
   <project path="packages/apps/ThemeChooser" name="Mahdi-Rom/android_packages_apps_ThemeChooser" remote="github" revision="kk-4.4.3" />
   <project path="packages/providers/ThemesProvider" name="Mahdi-Rom/android_packages_providers_ThemesProvider" remote="github" revision="kk-4.4.3" />
 
-  <!-- GOOGLE GCC TOOLCHAIN -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="Octo-Kat/platform_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.8" groups="pdk, linux, arm" remote="github" revision="kk-4.4" />
-  
-  <!-- LINARO TOOLCHAIN -->
-  <project path="prebuilts/gcc/linux-x86/arm/Linaro-4.7" name="Octo-Kat/Linaro_47x_toolchain" remote="github" revision="kk-4.4" />
-  <project path="prebuilts/gcc/linux-x86/arm/Linaro-4.8" name="AOSP-S4-KK/platform_prebuilts_gcc_linux-x86_arm_linaro_arm_gnuabihf-4.8" remote="github" revision="kk-4.4" />
-  <project path="prebuilts/gcc/linux-x86/arm/Linaro-4.9" name="AOSP-S4-KK/platform_prebuilts_gcc_linux-x86_arm_linaro_arm_gnuabihf-4.9" remote="github" revision="kk-4.4" />
-  
   <!-- i9500 Hardware Support-->
   <project path="vendor/samsung" name="GearCM/proprietary_vendor_samsung" remote="github" revision="cm-11.0" />
   <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-11.0" />
+  <project path="hardware/samsung_slsi/exynos5" name="CyanogenMod/android_hardware_samsung_slsi_exynos5" remote="github" revision="cm-11.0" />
   <project path="hardware/samsung_slsi/exynos5410" name="CyanogenMod/android_hardware_samsung_slsi_exynos5410" remote="github" revision="cm-11.0" />
   <project path="hardware/samsung_slsi/exynos5-insignal" name="CyanogenMod/android_hardware_samsung_slsi_exynos5-insignal" remote="github" revision="cm-11.0" />
   <project path="hardware/samsung_slsi/openmax" name="CyanogenMod/android_hardware_samsung_slsi_openmax" remote="github" revision="cm-11.0" />
   <project path="hardware/samsung_slsi/exynos" name="CyanogenMod/android_hardware_samsung_slsi_exynos" remote="github" revision="cm-11.0" />
-  <project path="kernel/samsung/exynos5410" name="GearCM/android_kernel_samsung_exynos5410" remote="github" revision="cm-11.0" />
+  <project path="kernel/samsung/exynos5410" name="BlaqueSouldroid/android_kernel_samsung_exynos5410" remote="github" revision="cm-11.0" />
 
 </manifest>
