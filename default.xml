@@ -492,6 +492,10 @@
   <!-- i9500 Hardware Support-->
   <project path="vendor/samsung" name="GearCM/proprietary_vendor_samsung" remote="github" revision="cm-11.0" />
   <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-11.0" />
+  <project path="hardware/samsung_slsi/exynos5410" name="CyanogenMod/android_hardware_samsung_slsi_exynos5410" remote="github" revision="cm-11.0" />
+  <project path="hardware/samsung_slsi/exynos5-insignal" name="CyanogenMod/android_hardware_samsung_slsi_exynos5-insignal" remote="github" revision="cm-11.0" />
+  <project path="hardware/samsung_slsi/openmax" name="CyanogenMod/android_hardware_samsung_slsi_openmax" remote="github" revision="cm-11.0" />
+  <project path="hardware/samsung_slsi/exynos" name="CyanogenMod/android_hardware_samsung_slsi_exynos" remote="github" revision="cm-11.0" />
   <project path="kernel/samsung/exynos5410" name="GearCM/android_kernel_samsung_exynos5410" remote="github" revision="cm-11.0" />
 
 </manifest>
