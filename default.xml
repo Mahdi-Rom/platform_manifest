@@ -488,4 +488,9 @@
   <!-- LINARO TOOLCHAIN -->
   <project name="JustArchi/Linaro" path="prebuilt/linux-x86/toolchain/linaro-arm-eabi-4.8" remote="github" revision="4.8-eabi" />
 
+  <!-- i9500 Hardware Support-->
+  <project path="vendor/samsung" name="GearCM/proprietary_vendor_samsung" remote="github" revision="cm-11.0" />
+  <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-11.0" />
+  <project path="kernel/samsung/exynos5410" name="GearCM/android_kernel_samsung_exynos5410" remote="github" revision="cm-11.0" />
+
 </manifest>
