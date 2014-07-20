@@ -481,7 +481,7 @@
   <project path="packages/providers/ThemesProvider" name="Mahdi-Rom/android_packages_providers_ThemesProvider" remote="github" revision="kk-4.4.3" />
 
   <!-- i9500 Hardware Support-->
-  <project path="vendor/samsung" name="GearCM/proprietary_vendor_samsung" remote="github" revision="cm-11.0" />
+  <project path="vendor/samsung" name="BlaqueSouldroid/proprietary_vendor_samsung" remote="github" revision="cm-11.0" />
   <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-11.0" />
   <project path="hardware/samsung_slsi/exynos5" name="CyanogenMod/android_hardware_samsung_slsi_exynos5" remote="github" revision="cm-11.0" />
   <project path="hardware/samsung_slsi/exynos5410" name="CyanogenMod/android_hardware_samsung_slsi_exynos5410" remote="github" revision="cm-11.0" />
