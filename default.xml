@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="aosp"
+  <remote name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
   <default revision="refs/tags/android-4.4.4_r2"
            remote="aosp"
            sync-j="4" />
+           
+  <remote name="Mahdi-Rom"
+           fetch="https://github.com/Mahdi-Rom" />
 
-  <remote  name="github"
+  <remote name="github"
            fetch="https://github.com" />
 
   <project path="build" name="Mahdi-Rom/android_build" groups="pdk" remote="github" revision="kk-4.4.3" >
@@ -27,25 +30,8 @@
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="Mahdi-Rom/android_development" remote="github" revision="kk-4.4.3" />
-  <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" />
-  <project path="device/asus/flo" name="Mahdi-Rom/android_device_asus_flo" groups="device,flo" remote="github" revision="kk-4.4.3" />
-  <project path="device/asus/grouper" name="Mahdi-Rom/android_device_asus_grouper" groups="device,grouper" remote="github" revision="kk-4.4.3" />
-  <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device,grouper" />
   <project path="device/common" name="device/common" />
-  <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
-  <project path="device/generic/common" name="device/generic/common" groups="pdk" />
-  <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" />
-  <project path="device/generic/mips" name="device/generic/mips" groups="pdk" />
-  <project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" groups="pdk" />
-  <project path="device/generic/mini-emulator-mips" name="device/generic/mini-emulator-mips" groups="pdk" />
-  <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" />
-  <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
-  <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
-  <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/lge/hammerhead" name="Mahdi-Rom/android_device_lge_hammerhead" groups="device,hammerhead" remote="github" revision="kk-4.4.3" />
-  <project path="device/lge/mako" name="Mahdi-Rom/android_device_lge_mako" groups="device,mako" remote="github" revision="kk-4.4.3" />
   <project path="device/sample" name="device/sample" groups="pdk" />
-  <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" />
@@ -289,7 +275,6 @@
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
   <project path="hardware/qcom/wlan" name="Mahdi-Rom/android_hardware_qcom_wlan" groups="qcom" remote="github" revision="kk-4.4.3-caf" />
   <project path="hardware/ril" name="Mahdi-Rom/android_hardware_ril" groups="pdk" remote="github" revision="kk-4.4.3" />
-  <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
@@ -496,5 +481,16 @@
   <!-- Theme Manager -->
   <project path="packages/apps/ThemeChooser" name="Mahdi-Rom/android_packages_apps_ThemeChooser" remote="github" revision="kk-4.4.3" />
   <project path="packages/providers/ThemesProvider" name="Mahdi-Rom/android_packages_providers_ThemesProvider" remote="github" revision="kk-4.4.3" />
+
+  <!-- i9500 Hardware Support-->
+  <project path="vendor/samsung" name="BlaqueSouldroid/proprietary_vendor_samsung" remote="github" revision="cm-11.0" />
+  <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-11.0" />
+  <project path="hardware/samsung_slsi/exynos5" name="CyanogenMod/android_hardware_samsung_slsi_exynos5" remote="github" revision="cm-11.0" />
+  <project path="hardware/samsung_slsi/exynos5410" name="CyanogenMod/android_hardware_samsung_slsi_exynos5410" remote="github" revision="cm-11.0" />
+  <project path="hardware/samsung_slsi/exynos5-insignal" name="CyanogenMod/android_hardware_samsung_slsi_exynos5-insignal" remote="github" revision="cm-11.0" />
+  <project path="hardware/samsung_slsi/openmax" name="CyanogenMod/android_hardware_samsung_slsi_openmax" remote="github" revision="cm-11.0" />
+  <project path="hardware/samsung_slsi/exynos" name="CyanogenMod/android_hardware_samsung_slsi_exynos" remote="github" revision="cm-11.0" />
+  <project path="kernel/samsung/exynos5410" name="BlaqueSouldroid/android_kernel_samsung_exynos5410" remote="github" revision="cm-11.0" />
+  <project path="device/samsung/i9500" name="BlaqueSouldroid/android_device_samsung_i9500" remote="github" revision="mahdi" />
 
 </manifest>
