@@ -228,7 +228,7 @@
   <project path="external/yaffs2" name="Mahdi-Rom/android_external_yaffs2" groups="pdk" remote="github" revision="kk-4.4.3" />
   <project path="external/zlib" name="Mahdi-Rom/android_external_zlib" groups="pdk" remote="github" revision="kk-4.4.3" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="Mahdi-Rom/android_frameworks_av" groups="pdk" remote="github" revision="kk-4.4.3-caf" />
+  <project path="frameworks/av" name="BlaqueSouldroid/android_frameworks_av" groups="pdk" remote="github" revision="kk-4.4.3-caf" />
   <project path="frameworks/base" name="Mahdi-Rom/android_frameworks_base" remote="github" revision="kk-4.4.3-caf" />
   <project path="frameworks/compile/libbcc" name="Mahdi-Rom/android_frameworks_compile_libbcc" groups="pdk" remote="github" revision="kk-4.4.3" />
   <project path="frameworks/compile/mclinker" name="Mahdi-Rom/android_frameworks_compile_mclinker" groups="pdk" remote="github" revision="kk-4.4.3" />
