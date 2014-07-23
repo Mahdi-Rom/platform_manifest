@@ -7,6 +7,9 @@
   <default revision="refs/tags/android-4.4.4_r2"
            remote="aosp"
            sync-j="4" />
+           
+  <remote name="Mahdi-Rom"
+           fetch="https://github.com/Mahdi-Rom" />
 
   <remote name="github"
            fetch="https://github.com" />
