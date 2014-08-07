@@ -442,6 +442,7 @@
   <project path="external/cardslib" name="Mahdi-Rom/android_external_cardslib" groups="pdk" remote="github" revision="kk-4.4.3" />
   <project path="external/crda" name="Mahdi-Rom/android_external_crda" groups="pdk" remote="github" revision="kk-4.4.3" />
   <project path="external/connectivity" name="Mahdi-Rom/android_external_connectivity" remote="github" revision="kk-4.4.3" />
+  <project path="external/cyanogen/cmhomeapi" name="Mahdi-Rom/android_external_cyanogen_cmhomeapi" remote="github" revision="kk-4.4.3" />
   <project path="external/exfat" name="Mahdi-Rom/android_external_exfat" groups="pdk" remote="github" revision="kk-4.4.3" />
   <project path="external/fuse" name="Mahdi-Rom/android_external_fuse" groups="pdk" remote="github" revision="kk-4.4.3" />
   <project path="external/ffmpeg" name="Mahdi-Rom/android_external_ffmpeg" remote="github" revision="kk-4.4.3" />
