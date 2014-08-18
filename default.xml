@@ -492,9 +492,7 @@
   <project path="system/qcom" name="Mahdi-Rom/android_system_qcom" remote="github" revision="kk-4.4.3" />
 
   <!-- Mahdi-Rom vendor -->
-  <project path="vendor/mahdi" name="Mahdi-Rom/android_vendor_mahdi" remote="github" revision="kk-4.4.3-caf" >
-    <copyfile src="build.sh" dest="build.sh" />
-  </project>
+  <project path="vendor/mahdi" name="Mahdi-Rom/android_vendor_mahdi" remote="github" revision="kk-4.4.3" />
 
   <!-- Theme Manager -->
   <project path="packages/apps/ThemeChooser" name="Mahdi-Rom/android_packages_apps_ThemeChooser" remote="github" revision="kk-4.4.3" />
