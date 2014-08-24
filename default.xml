@@ -471,7 +471,6 @@
   <project path="packages/apps/Trebuchet" name="Mahdi-Rom/android_packages_apps_Trebuchet" remote="github" revision="kk-4.4.3" />
   <project path="packages/apps/CMHome" name="Mahdi-Rom/android_packages_apps_CMHome" remote="github" revision="kk-4.4.3" />
   <project path="packages/apps/TouchControl" name="Mahdi-Rom/android_packages_apps_TouchControl" remote="github" revision="kk-4.4.3" />
-  <project path="packages/apps/OmniSwitch" name="Mahdi-Rom/android_packages_apps_OmniSwitch" remote="github" revision="kk-4.4.3" />
 
   <project path="packages/wallpapers/PhotoPhase" name="Mahdi-Rom/android_packages_wallpapers_PhotoPhase" remote="github" revision="kk-4.4.3" />
 
