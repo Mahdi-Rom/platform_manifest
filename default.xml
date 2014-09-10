@@ -439,6 +439,7 @@
   <project path="external/android-visualizer" name="Mahdi-Rom/android_external_android-visualizer" remote="github" revision="kk-4.4.3" />
   <project path="external/ant-wireless/ant_native" name="Mahdi-Rom/android_external_ant-wireless_ant_native" remote="github" revision="kk-4.4.3" />
   <project path="external/ant-wireless/ant_service" name="Mahdi-Rom/android_external_ant-wireless_ant_service" remote="github" revision="kk-4.4.3" />
+  <project path="external/ant-wireless/antradio-library" name="Mahdi-Rom/android_external_ant-wireless_antradio-library" remote="github" revision="kk-4.4.3" />
   <project path="external/bash" name="Mahdi-Rom/android_external_bash" remote="github" revision="kk-4.4.3" />
   <project path="external/busybox" name="Mahdi-Rom/android_external_busybox" remote="github" revision="kk-4.4.3" />
   <project path="external/cardslib" name="Mahdi-Rom/android_external_cardslib" groups="pdk" remote="github" revision="kk-4.4.3" />
