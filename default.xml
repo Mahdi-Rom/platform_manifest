@@ -446,6 +446,7 @@
   <project path="external/crda" name="Mahdi-Rom/android_external_crda" groups="pdk" remote="github" revision="kk-4.4.3" />
   <project path="external/cyanogen/cmhomeapi" name="Mahdi-Rom/android_external_cyanogen_cmhomeapi" remote="github" revision="kk-4.4.3" />
   <project path="external/exfat" name="Mahdi-Rom/android_external_exfat" groups="pdk" remote="github" revision="kk-4.4.3" />
+  <project path="external/f2fs-tools" name="Mahdi-Rom/android_external_f2fs-tools" remote="github" revision="kk-4.4.3" />
   <project path="external/google" name="Mahdi-Rom/android_external_google" remote="github" revision="kk-4.4.3" />
   <project path="external/kissfft" name="Mahdi-Rom/android_external_kissfft" groups="pdk" remote="github" revision="kk-4.4.3" />
   <project path="external/nano" name="Mahdi-Rom/android_external_nano" remote="github" revision="kk-4.4.3" />
@@ -460,7 +461,6 @@
   <project path="external/koush/Widgets" name="Mahdi-Rom/android_external_koush_Widgets" remote="github" revision="kk-4.4.3" />
 
   <!-- Apps -->
-  <project path="packages/apps/VoicePlus" name="Mahdi-Rom/android_packages_apps_VoicePlus" remote="github" revision="kk-4.4.3" />
   <project path="packages/apps/Apollo" name="Mahdi-Rom/android_packages_apps_Apollo" remote="github" revision="kk-4.4.3" />
   <project path="packages/apps/DSPManager" name="Mahdi-Rom/android_packages_apps_DSPManager" remote="github" revision="kk-4.4.3" />
   <project path="packages/apps/Torch" name="Mahdi-Rom/android_packages_apps_Torch" remote="github" revision="kk-4.4.3" />
