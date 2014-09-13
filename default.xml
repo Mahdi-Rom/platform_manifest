@@ -449,6 +449,7 @@
   <project path="external/exfat" name="Mahdi-Rom/android_external_exfat" groups="pdk" remote="github" revision="kk-4.4.3" />
   <project path="external/fuse" name="Mahdi-Rom/android_external_fuse" groups="pdk" remote="github" revision="kk-4.4.3" />
   <project path="external/ffmpeg" name="Mahdi-Rom/android_external_ffmpeg" remote="github" revision="kk-4.4.3" />
+  <project path="external/f2fs-tools" name="Mahdi-Rom/android_external_f2fs-tools" remote="github" revision="kk-4.4.3" />
   <project path="external/google" name="Mahdi-Rom/android_external_google" remote="github" revision="kk-4.4.3" />
   <project path="external/gson" name="Mahdi-Rom/android_external_gson" remote="github" revision="kk-4.4.3" />
   <project path="external/kissfft" name="Mahdi-Rom/android_external_kissfft" groups="pdk" remote="github" revision="kk-4.4.3" />
@@ -468,7 +469,6 @@
 
   <!-- Apps -->
   <project path="packages/apps/BluetoothExt" name="Mahdi-Rom/android_packages_apps_BluetoothExt" remote="github" revision="kk-4.4.3" />
-  <project path="packages/apps/VoicePlus" name="Mahdi-Rom/android_packages_apps_VoicePlus" remote="github" revision="kk-4.4.3" />
   <project path="packages/apps/Apollo" name="Mahdi-Rom/android_packages_apps_Apollo" remote="github" revision="kk-4.4.3" />
   <project path="packages/apps/DSPManager" name="Mahdi-Rom/android_packages_apps_DSPManager" remote="github" revision="kk-4.4.3" />
   <project path="packages/apps/Torch" name="Mahdi-Rom/android_packages_apps_Torch" remote="github" revision="kk-4.4.3" />
