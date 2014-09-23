@@ -321,7 +321,7 @@
   <project path="packages/apps/Mms" name="Mahdi-Rom/android_packages_apps_Mms" remote="github" revision="kk-4.4.3" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
-  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
+  <project path="packages/apps/Nfc" name="Mahdi-Rom/android_packages_apps_Nfc" remote="github" revision="kk-4.4.3" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="Mahdi-Rom/android_packages_apps_PackageInstaller" remote="github" revision="kk-4.4.3" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
