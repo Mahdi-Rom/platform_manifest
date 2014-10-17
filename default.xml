@@ -262,7 +262,7 @@
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
-  <project path="frameworks/opt/telephony" name="Mahdi-Rom/android_frameworks_opt_telephony" groups="pdk" remote="github" revision="kk-4.4.3" />
+  <project path="frameworks/opt/telephony" name="Mahdi-Rom/android_frameworks_opt_telephony" groups="pdk" remote="github" revision="kk-4.4.3-caf" />
   <project path="frameworks/opt/vcard" name="Mahdi-Rom/android_frameworks_opt_vcard" remote="github" revision="kk-4.4.3" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" />
   <project path="frameworks/rs" name="Mahdi-Rom/android_frameworks_rs" groups="pdk" remote="github" revision="kk-4.4.3" />
@@ -288,7 +288,7 @@
   <project path="hardware/qcom/power" name="Mahdi-Rom/android_hardware_qcom_power" groups="qcom" remote="github" revision="kk-4.4.3" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
   <project path="hardware/qcom/wlan" name="Mahdi-Rom/android_hardware_qcom_wlan" groups="qcom" remote="github" revision="kk-4.4.3" />
-  <project path="hardware/ril" name="Mahdi-Rom/android_hardware_ril" groups="pdk" remote="github" revision="kk-4.4.3" />
+  <project path="hardware/ril" name="Mahdi-Rom/android_hardware_ril" groups="pdk" remote="github" revision="kk-4.4.3-caf" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
@@ -354,7 +354,7 @@
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
-  <project path="packages/services/Telephony" name="Mahdi-Rom/android_packages_services_Telephony" remote="github" revision="kk-4.4.3" />
+  <project path="packages/services/Telephony" name="Mahdi-Rom/android_packages_services_Telephony" remote="github" revision="kk-4.4.3-caf" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
