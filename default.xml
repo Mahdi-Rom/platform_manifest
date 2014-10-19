@@ -414,7 +414,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/core" name="Mahdi-Rom/android_system_core" groups="pdk" remote="github" revision="kk-4.4.3" />
+  <project path="system/core" name="Mahdi-Rom/android_system_core" groups="pdk" remote="github" revision="kk-4.4.3-caf" />
   <project path="system/extras" name="Mahdi-Rom/android_system_extras" groups="pdk" remote="github" revision="kk-4.4.3" />
   <project path="system/media" name="Mahdi-Rom/android_system_media" groups="pdk" remote="github" revision="kk-4.4.3" />
   <project path="system/netd" name="Mahdi-Rom/android_system_netd" groups="pdk" remote="github" revision="kk-4.4.3" />
