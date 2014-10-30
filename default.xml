@@ -11,6 +11,9 @@
   <remote  name="github"
            fetch="https://github.com" />
 
+  <remote  name="MrTumbles"
+           fetch="https://github.com" />
+
   <project path="build" name="Mahdi-Rom/android_build" groups="pdk" remote="github" revision="kk-4.4.3" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
